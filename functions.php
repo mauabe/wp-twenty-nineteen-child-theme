@@ -96,7 +96,7 @@ function spepyio_theme_options_page()
 				<h2>Confirm that you are a happy person</h2>
 				<h4>Are you happy?</h4>
 				<p>
-				<a href="./options-general.php?page=spepyio&spepyconfirm=Yes">Yes positivelly</a><br>
+				<a href="./options-general.php?page=spepyio&spepyconfirm=Yes">Yes, positivelly.</a><br>
 				<a href="./options-general.php?page=spepyio&spepyconfirm=No">No, I am down.</a><br>
 				<?php
  				$problem = "";
@@ -127,7 +127,7 @@ function spepyio_theme_options_page()
 				else
 				{
 					?>
-                    <strong style="color:red">? NOT ANSWERED? OH WELL !</strong>
+                    <strong style="color:blue"> NOT ANSWERED? OH WELL !</strong>
                     <?php
 				} 
 				?></strong></p>
@@ -228,7 +228,7 @@ if(is_admin())
 		{ 
 			?>
 			<div class="notice notice-success"><p><strong>Message from Spepy.io:</strong> Are you happy?
-				<a href="./options-general.php?page=spepyio&spepyconfirm=Yes">Absolutelly/a> &nbsp; or &nbsp;
+				<a href="./options-general.php?page=spepyio&spepyconfirm=Yes">Absolutelly</a> &nbsp; or &nbsp;
 				<a href="./options-general.php?page=spepyio&spepyconfirm=No">No way, man!</a></p>
 			</div>
             <?php
