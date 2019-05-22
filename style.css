@@ -47,14 +47,12 @@ body {
 .footer-flex-1 div:first-child {
   padding: 0 0 ;
 }
-
 .footer-flex ul, .footer-flex-1 ul {
   list-style: none;
   width: 200px;
 }
 
 /* COLOR OVERRIDE */
-
 footer#colophon.site-footer {
   background-color: #565861;
 }
@@ -159,11 +157,9 @@ input[type="color"]:focus,
 textarea:focus {
   border-color: #0073a8;; /* base: #0073a8; */
 }
-
 .gallery-item > div > a:focus {
   box-shadow: 0 0 0 2px #0073a8;; /* base: #0073a8; */
 }
-
 /* Hover colors */
 a:hover, a:active,
 .main-navigation .main-menu > li > a:hover,
@@ -182,9 +178,8 @@ a:hover, a:active,
 #cancel-comment-reply-link:hover,
 .widget a:hover {
   color: hsl( 47, 100%, 50% ) !important; /* base: #005177; */
-  brder-color: hsl( 47, 100%, 50% ) !important;
+  border-color: hsl( 47, 100%, 50% ) !important;
 }
-
 .main-navigation .sub-menu > li > a:hover,
 .main-navigation .sub-menu > li > a:focus,
 .main-navigation .sub-menu > li > a:hover:after,
@@ -197,9 +192,8 @@ a:hover, a:active,
 .entry .entry-content > *[class^="wp-block-"].has-secondary-background-color,
 .entry .entry-content > *[class^="wp-block-"] .has-secondary-background-color,
 .entry .entry-content > *[class^="wp-block-"].is-style-solid-color.has-secondary-background-color {
-  background-color: hsl( 326, 100%, 23% ); /* base: #005177; */
+  background-color: #bebebe; /* base: #005177; */
 }
-
 /* Text selection colors */
 ::selection {
   background-color: hsl( 326, 50%, 90% ); /* base: #005177; */
@@ -207,12 +201,10 @@ a:hover, a:active,
 ::-moz-selection {
   background-color: hsl( 326, 50%, 90% ); /* base: #005177; */
 }	
-
 .footer-elbow{
   text-align: center;
   font-size: 0.7em;
 }
-
 #footerlinktospepy_div, #footerlinktospepy_div p, #footerlinktospepy_div p a, #footerlinktospepy_a {
 font-size: 12px!important;
 text-align: center!important;
@@ -284,10 +276,97 @@ h1:not(.site-title):before, h2:before {
   padding: 2rem 2rem 1rem !important;
   margin-bottom: 0 !important;
 }
-
 .more-block .wp-block-margin{
   margin-left: 4rem;
 }
+.more-block .more-block-button{
+  color: white !important;
+}
 .masscomputing-block {
   margin-top: 0 !important;
+}
+/* CONTACT FORM */
+.contact-form-block{
+  padding: 0 8% 0 8% !important; 
+}
+.wpcf7-form input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+  background: #727272;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.36rem 0.66rem;
+  -webkit-appearance: none;
+  outline-offset: 0;
+  border-radius: 0;
+}
+.wpcf7-form button, .wpcf7-form input, .wpcf7-form select, .wpcf7-form optgroup, .wpcf7-form textarea {
+  color: #d6d6d6;
+  font-family: 'Playfair Display', serif, Garamond;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  font-size: 0.8rem;
+}
+.wpcf7-form  button, input {
+  overflow: visible;
+}
+/* HEADER STYLE */
+#site-navigation {
+  float:right;
+  font-size: 0.7rem
+}
+.site-title, .site-description {
+  display: none;
+}
+.post-edit-link{
+  display: none;
+}
+.site-logo .custom-logo-link {
+  border-radius: 0;
+  box-shadow: none;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  transition: none;
+}
+.site-logo .custom-logo-link:hover {
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  transition: none;
+  border-color: transparent !important;
+}
+
+@media only screen and (min-width: 768px){
+  .site-logo {
+    margin-bottom: 0;
+    position: absolute;
+    right: auto !important;
+    top: 4px;
+    z-index: 999;
+  }
+}
+#masthead{
+  background-color: #4e4c57;
+  height: 9.15rem;
+  margin: 0;
+}
+.site-header{
+  margin:0;
+  padding: 1rem 0 1rem 0;
+}
+#site-navigation{
+  float: right;
+  font-size: .7rem;
+  margin-top: 2rem;
+}
+.main-navigation .sub-menu{
+  color: #494949 !important;
+  border-bottom: 1px solid #ffc700;
+  background-color: #6e6e6e;
+}
+.main-navigation .main-menu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
