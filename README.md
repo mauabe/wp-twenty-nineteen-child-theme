@@ -1,8 +1,7 @@
 # Wordpress Twenty-Nineteen Child Theme
 
 
-
-![2019 child theme](screeenshot.jpg)
+![2019 child theme](/screeenshot.jpg)
 
 ## Building a child theme
 
@@ -23,7 +22,7 @@ The developer tools on Chrome (and also on Firefox) make that task easier. You r
 
 Here is a reference to how Wordpress organizes it's theme files:
 
-![Wordpress theme structure](wordpress-structure.png)
+![Wordpress theme structure](/wordpress-structure.png)
 
 
 Make all the changes and copy the folder of your child theme out of the Wordpress and compress the folder as a backup for future use.
