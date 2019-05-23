@@ -1,7 +1,7 @@
 # Wordpress Twenty-Nineteen Child Theme
 
 
-![2019 child theme](/screeenshot.jpg)
+![2019 child theme](/screeenshot.png)
 
 ## Building a child theme
 
