@@ -282,6 +282,15 @@ h1:not(.site-title):before, h2:before {
 .more-block .more-block-button{
   color: white !important;
 }
+.entry .entry-content .wp-block-button .wp-block-button__link {
+  transition: background 150ms ease-in-out;
+  border: none;
+  font-size: 0.88889em;
+  font-family: 'Playfair Display', serif, Garamond;
+  font-weight: 900;
+  color: white !important;
+}
+
 .masscomputing-block {
   margin-top: 0 !important;
 }
@@ -290,7 +299,8 @@ h1:not(.site-title):before, h2:before {
   padding: 0 8% 0 8% !important; 
 }
 .wpcf7-form input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
-  background: #727272;
+  background-color: #5a5a5a;
+  color:white !important;
   border: none;
   box-sizing: border-box;
   outline: none;
@@ -300,13 +310,17 @@ h1:not(.site-title):before, h2:before {
   border-radius: 0;
 }
 .wpcf7-form button, .wpcf7-form input, .wpcf7-form select, .wpcf7-form optgroup, .wpcf7-form textarea {
-  color: #d6d6d6;
+  color: #cfcdcd;
   font-family: 'Playfair Display', serif, Garamond;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   font-size: 0.8rem;
 }
+.wpcf7-form input::placeholder,  .wpcf7-form textarea::placeholder  {
+  color: #949494;
+}
+
 .wpcf7-form  button, input {
   overflow: visible;
 }
@@ -336,10 +350,9 @@ h1:not(.site-title):before, h2:before {
   transition: none;
   border-color: transparent !important;
 }
-
 @media only screen and (min-width: 768px){
   .site-logo {
-    margin-bottom: 0;
+    margin: 0 0;
     position: absolute;
     right: auto !important;
     top: 4px;
@@ -355,15 +368,22 @@ h1:not(.site-title):before, h2:before {
   margin:0;
   padding: 1rem 0 1rem 0;
 }
+.biocomputing-block{ 
+   margin-top: 0;
+}}
+
+.entry .entry-content > .has-primary-background-color, .entry .entry-content > *[class^="wp-block-"].has-primary-background-color {
+  margin-top: 0;
+}
 #site-navigation{
   float: right;
   font-size: .7rem;
   margin-top: 2rem;
 }
 .main-navigation .sub-menu{
-  color: #494949 !important;
+  color: #6e6e6e !important;
   border-bottom: 1px solid #ffc700;
-  background-color: #6e6e6e;
+  background-color: #494949;
 }
 .main-navigation .main-menu {
   display: inline-block;
